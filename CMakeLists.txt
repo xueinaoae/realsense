@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 project(realense)
-file(GLOB SRC ./src/*.cpp)
+file(GLOB SRC ./src/src/*.cpp)
 add_executable(${PROJECT_NAME} ${SRC})
 find_package(OpenCV REQUIRED)
 find_package(realsense2 REQUIRED)
